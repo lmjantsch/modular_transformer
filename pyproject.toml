@@ -5,8 +5,8 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "modular-transformer"
 version = "0.1.0"
-description = "Layer-Wise Vector Propagation (LVP) for transformer attribution"
-readme = "CLAUDE.md"
+description = "Conservation-preserving gradient attribution for HuggingFace transformers via in-place backward-pass patching"
+readme = "README.md"
 requires-python = ">=3.10"
 authors = [
     {name = "Lasse Jantsch", email = "lassejantsch@web.de"}
